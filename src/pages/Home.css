@@ -1,0 +1,12 @@
+
+.home{
+    margin: 16px;
+    display: flex;
+}
+.home_product{
+   margin: 0 16px;
+    background-color: lightgreen;
+}
+.home_Flip{
+    width: 600px;
+}
