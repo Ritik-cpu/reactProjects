@@ -2,7 +2,17 @@
 .home{
     margin: 16px;
     display: flex;
+    
 }
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
+    .home{
+        margin: 16px;
+        display: flex;
+        flex-direction: column !important; 
+    }
+    
+  } */
 .home_product{
    margin: 0 16px;
     background-color: lightgreen;

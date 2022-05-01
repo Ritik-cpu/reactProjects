@@ -2,8 +2,8 @@ import React from "react";
 
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import InfoHide from "./pages/InfoHide";
+import MenuProject from "./pages/MenuProject"
 import Navbar from "./Navbar";
 export default function App() {
   return (
@@ -12,8 +12,8 @@ export default function App() {
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/about"  element={<About/>} />
-      <Route path="/contact"  element={<Contact/>} />
+      <Route path="/menuproject"  element={<MenuProject/>} />
+      <Route path="/infohide"  element={<InfoHide/>} />
       <Route path="*" element={<Navigate to="/"/>}/>
     </Routes>
   

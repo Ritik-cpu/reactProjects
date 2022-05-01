@@ -8,8 +8,8 @@ import { Box } from '@mui/material'
 
 export default function Navbar() {
   return (
-    <div>
-       <AppBar position="static"  color="primary"  >
+    <Box sx={{marginBottom:'100px',}}>
+       <AppBar color="primary" >
          <Box sx={{display:'flex'}}>
          <Toolbar>
            <Typography variant="h6">
@@ -18,16 +18,16 @@ export default function Navbar() {
            </Toolbar>
            <Toolbar>
            <Typography variant="h6">
-           <Link to="about">About</Link>
+           <Link to="menuproject">MenuProject</Link>
             </Typography>
             </Toolbar>
             <Toolbar>
             <Typography variant="h6">
-            <Link to="/contact">Contact</Link>
+            <Link to="/infohide">InfoHide</Link>
             </Typography>
          </Toolbar>
          </Box>
        </AppBar>
-    </div>
+    </Box>
   )
 }
